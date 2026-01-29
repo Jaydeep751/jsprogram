@@ -11,7 +11,7 @@ replece()
 concat()
 splite()*/
 
-let str=" Hello jaydeep "
+let str=" Hello jaydeep bhendarada "
 console.log(str)
 console.log("length() :",str.length)
 
