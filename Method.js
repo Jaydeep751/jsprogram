@@ -29,10 +29,10 @@ console.log("indexof",str.indexOf("jaydeep"))
 
 console.log("slice():",str.slice(2,-7))
 
-console.log("substreing():",str.substring(1,5,))
+console.log("substreing():",str.substring(2,5,))
 
 console.log("replace",str.replace("Hello","hey"))
-
-console.log("concat():",str.concat("jayahir"))
-console.log("split():",str.split("Hello"))
-
+let exe ="jay"
+console.log("concat():",str.concat(exe))
+console.log("split():",str.split(" "))
+ 
