@@ -139,8 +139,8 @@ console.log(typeof obj)
 */
 //comperition
 
-let value1 =10;
-let num1 ="10"
-console.log(value1==num1)
-console.log(value1===num1)
-console.log(value1!=num1)
+let value1 = 10;
+let num1 = "10"
+console.log(value1 == num1)
+console.log(value1 === num1)
+console.log(value1 != num1)

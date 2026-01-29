@@ -35,7 +35,7 @@ splite()*/
 // let exe ="jay"
 // console.log("concat():",str.concat(exe))
 // console.log("split():",str.split(" "))
- 
+
 
 
 
@@ -62,7 +62,7 @@ reverse()
 flat()
 */
 
- let arr=['one','two','three',{name:'jaydeep'}]
+//  let arr=['one','two','three',{name:'jaydeep'}]
 // console.log("defult arrary",arr)
 
 // console.log("length():",arr.length)
@@ -96,33 +96,58 @@ flat()
 // console.log(arr)
 
 
- console.log("join()",arr.join(", "))
+//  console.log("join()",arr.join(", "))
 
 // delete arr[1]
 // console.log(arr)
 
 
 
-console.log("arrar iteration method :")
-let numbers =[1,2,3,4,5]
-console.log("map:",numbers.map(num => num*2))
-console.log("old",numbers)
+// console.log("arrar iteration method :")
+// let numbers =[1,2,3,4,5]
+// console.log("map:",numbers.map(num => num*2))
+// console.log("old",numbers)
 
-console.log("fileter:",numbers.filter(num => num >2))
-console.log("old",numbers)
-
-
-console.log("forEcah")
-numbers.forEach(num =>console.log(num))
-
-let num1 =[2,3,4,4,65,5,]
-console.log("sort",num1.sort())
-
-console.log("revers",num1.reverse())
+// console.log("fileter:",numbers.filter(num => num >2))
+// console.log("old",numbers)
 
 
-let nestedarray =[1,2,[3,4],[5,6]]
-console.log("nested arrary",nestedarray)
+// console.log("forEcah")
+// numbers.forEach(num =>console.log(num))
 
-let flatArray=nestedarray.flat()
-console.log("flet arrary",flatArray)
+// let num1 =[2,3,4,4,65,5,]
+// console.log("sort",num1.sort())
+
+// console.log("revers",num1.reverse())
+
+
+// let nestedarray =[1,2,[3,4],[5,6]]
+// console.log("nested arrary",nestedarray)
+
+// let flatArray=nestedarray.flat()
+// console.log("flet arrary",flatArray)
+
+
+
+//arrary destrturing
+
+// let array=[1,2,3,4,]
+// const [first,second,thard]=array
+// console.log(first)
+// console.log(second)
+// console.log(thard)
+
+//skpingvalue
+
+// let array1 = [1,2,3,4]
+// const[first, , third]=array1
+// console.log(first)
+// console.log(third)
+
+
+//rest opretor spared
+const num1 = [1, 2, 3, 4]
+const [fir, second, ...rest] = num1
+console.log(fir)
+console.log(second)
+console.log(rest)

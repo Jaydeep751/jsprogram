@@ -3,8 +3,8 @@ var a = 25;
 
 console.log(a);
 
-let b=20;
-if(true){
+let b = 20;
+if (true) {
     let b = 10;
     console.log(b);
 }
